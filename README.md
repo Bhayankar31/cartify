@@ -1,60 +1,46 @@
-<<<<<<< HEAD
-# cartify
-=======
-# Welcome to your Expo app 👋
+# 🛒 Cartify
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Get started
+Cartify is a modern, high-performance mobile e-commerce application built with React Native and Expo. Designed to deliver a premium shopping experience, it allows users to effortlessly browse curated categories—from vibrant gaming room aesthetics and neon lighting setups to modern home decor and room renovations—all backed by buttery-smooth interactions.
 
-1. Install dependencies
+---
 
+## ✨ Key Features
+
+* **Immersive Hero Carousel:** A highly optimized, auto-playing carousel featuring dynamic image and video slides. Built entirely with `react-native-reanimated-carousel` for native-driven, 60FPS swiping performance.
+* **Smart Video Autoplay:** Integrated with `expo-video`, video slides intelligently play only when active and pause automatically when swiped away to preserve battery and memory.
+* **Fluid UI Animations:** Custom animated pagination dots utilizing `react-native-reanimated` for smooth width and color transitions without triggering heavy React re-renders.
+* **Modern Styling:** Fully styled using **NativeWind** (Tailwind CSS for React Native), ensuring a responsive, scalable, and beautifully consistent design system.
+* **Custom Typography:** Integrated with Expo Google Fonts (`Poppins`) for a bold, readable, and modern brand identity.
+* **Gesture-Ready Navigation:** Seamlessly utilizes Expo Router with global `GestureHandlerRootView` support for flawless swipe and touch interactions.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** React Native & Expo (Expo Router)
+* **Language:** TypeScript
+* **Styling:** NativeWind (Tailwind CSS) & CSS Interop
+* **Animations:** React Native Reanimated & React Native Gesture Handler
+* **Media:** Expo Video, Expo Splash Screen
+* **Fonts:** Expo Google Fonts (Poppins)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run Cartify locally on your machine.
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed and an Android/iOS emulator configured, or the Expo Go app on your physical device.
+
+### Installation
+
+1. **Clone the repository:**
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
->>>>>>> 200c224 (Initial commit for Cartify app)
+   git clone [https://github.com/Bhayankar31/cartify.git](https://github.com/Bhayankar31/cartify.git)
+   cd cartify
