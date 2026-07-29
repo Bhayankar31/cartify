@@ -21,8 +21,12 @@
       "permissions": [
         "ACCESS_FINE_LOCATION",
         "ACCESS_COARSE_LOCATION",
-        "RECORD_AUDIO"
-      ]
+        "RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.bhayankar31.cartify"
     },
     "web": {
       "output": "static",
@@ -43,13 +47,6 @@
         "expo-location",
         {
           "locationAlwaysAndWhenInUsePermission": "Allow Cartify to use your location to deliver items accurately."
-        }
-      ],
-      [
-        "@react-native-voice/voice",
-        {
-          "microphonePermission": "Allow Cartify to access the microphone for voice search.",
-          "speechRecognitionPermission": "Allow Cartify to securely recognize your voice for search."
         }
       ],
       "expo-font",

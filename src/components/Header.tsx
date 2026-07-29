@@ -13,8 +13,8 @@ import * as Location from 'expo-location';
 
 // Default Dark Store / Warehouse coordinates
 const STORE_LOCATION = {
-  latitude: 25.220856011717323,
-  longitude: 80.92008630949341,
+  latitude: 25.222626,
+  longitude: 80.7155227,
 };
 
 // Haversine distance formula (in km)
